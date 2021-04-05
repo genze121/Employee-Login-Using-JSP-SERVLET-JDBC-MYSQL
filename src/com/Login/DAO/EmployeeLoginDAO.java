@@ -14,7 +14,6 @@ public class EmployeeLoginDAO {
 
 	public EmployeeLogin getLoginDetails(EmployeeLogin login) {
 
-		boolean flag = false;
 		PreparedStatement preparedStatement = null;
 		Connection connection = null;
 		ResultSet result = null;
